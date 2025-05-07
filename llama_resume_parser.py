@@ -10,6 +10,7 @@ import fitz  # PyMuPDF
 class ResumeParser:
     def __init__(self):
         api_key = st.secrets["llama_cloud"]["api_key"]
+        print(api_key)
         if not api_key:
             raise ValueError("❌ LLAMA_CLOUD_API_KEY is missing from secrets.toml")
 
