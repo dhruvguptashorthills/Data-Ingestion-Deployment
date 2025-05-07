@@ -4,3 +4,6 @@ pymupdf==1.22.5
 pymongo==4.5.0
 llama-parse
 requests==2.31.0
+pillow
+wheel
+setuptools
